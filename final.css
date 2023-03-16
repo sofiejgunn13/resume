@@ -1,0 +1,53 @@
+/*Sofie Gunn Final Project CSS Page*/
+/* Sofie Gunn */
+
+* {box-sizing:border-box;}
+
+body	{background-color: lightblue;
+		padding-left: 5em;}
+
+h1		{font-family: "Comic Sans MS", cursive;
+		text-align: center;}
+
+nav 	{text-align: center;
+		font-family:"Comic Sans MS", cursive;}
+		
+nav a 	{text-decoration: none;
+		color: LightSlateGray;
+		padding: 14px 16px;}
+		
+		
+nav a:link {color:LightSlateGray;}
+nav a:visited {color:LightSlateGray;}
+nav a:hover {color: OldLace;}
+
+li		{padding-bottom: 20px;}
+
+h2		{font-family: "Candara", sans-serif;
+		letter-spacing: 0.2em;
+		text-align: right;
+		padding-right: 3em;
+		padding-top: 5px;}
+		
+.column	{float: left; width: 50%; }
+
+.row:after{content:"";
+			display: table; 
+			clear: both;}
+			
+.intro	{padding-right: 15px;
+		padding-top: 10px;
+		font-size: 1.2em;
+		font-family: "Candara", sans-serif;}
+		
+h3		{font-family: "Comic Sans MS", cursive;
+		font-size: 1em;}
+		
+h4		{font-family: "Optima", sans-serif;
+		font-size: 1em;
+		text-align: center;}
+		
+p 		{text-align: center;}
+	
+footer {text-align: center;
+		font-style: italic;}
